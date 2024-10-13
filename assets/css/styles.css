@@ -1,0 +1,49 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* overlay */
+.image-box {
+  position: relative; /* Set the parent container to relative positioning */
+  width: 100%;
+  height: auto;
+}
+
+.image-box img {
+  display: block; /* Ensures no extra space around the image */
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; /* Position it absolutely within the parent */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; /* Centers content inside */
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  opacity: 0; /* Hide overlay by default */
+  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.image-box:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.centered {
+  text-align: center;
+}

@@ -1,0 +1,55 @@
+NOTE:
+    -You should not re-arrange the files/folder structure
+    -You should only add your code on the index.html and css file.
+
+Text:
+    Logo:
+        Alexia
+
+    Nav Menu:
+        Gallery
+        About The Artist
+    
+    Welcome Section:
+        Welcome to the Portfolio of Alexia James
+        Alexia is an accomplished oil painter with a passion for capturing the beauty of the world on canvas. Browse through our gallery to explore a range of stunning works, from majestic landscapes to captivating portraits.
+
+        My Gallery
+        About Me
+
+        Section background color class: bg-dark
+        Green button class: btn-success 
+        Blue button class: btn-outline-light
+
+    Gallery Section:
+        Gallery
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam eaque quia sapiente, suscipit natus architecto!
+
+    About The Artist Section:
+        ABOUT THE ARTIST
+
+        1
+        Biography
+        Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus sit amet tempus vestibulum.
+
+        2
+        Artistic Style
+        Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus sit amet tempus vestibulum.
+
+        3
+        Creative Process
+        Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus sit amet tempus vestibulum.
+
+        4
+        Inspirations
+        Etiam pellentesque non nibh non pulvinar. Mauris posuere, tellus sit amet tempus vestibulum.
+
+        Section background color class: bg-success
+        Section content max width: 900px
+
+    Footer:
+        Alexia
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        All rights reserved © Alexia 2024
